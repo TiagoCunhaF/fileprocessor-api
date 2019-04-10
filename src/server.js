@@ -38,4 +38,4 @@ app.get("/", (req, res) => {
   res.send("ok");
 });
 
-server.listen(3001);
+server.listen(process.env.PORT || 3001);
