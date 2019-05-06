@@ -35,7 +35,7 @@ requireDir("./models");
 app.use("/api", require("./routes"));
 
 app.get("/", (req, res) => {
-  res.send("ok");
+  res.send("ok novo");
 });
 
 server.listen(process.env.PORT || 3001);

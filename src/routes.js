@@ -6,7 +6,7 @@ const multerConfig = require("./config/multer");
 const BoxController = require("./controllers/BoxController");
 const FileController = require("./controllers/FileController");
 
-routes.get("/boxes", BoxController.index);
+//routes.get("/boxes", BoxController.index);
 routes.get("/boxes/:id", BoxController.show);
 routes.post("/boxes", BoxController.store);
 //routes.put("/boxes/:id", BoxController.update);

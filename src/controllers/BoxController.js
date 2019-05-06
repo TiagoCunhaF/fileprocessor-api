@@ -14,10 +14,10 @@ class BoxController {
     return res.json(boxe);
   }
 
-  async index(req, res) {
-    const boxes = await Box.paginate();
-    return res.json(boxes);
-  }
+  //async index(req, res) {
+  //  const boxes = await Box.paginate();
+  //  return res.json(boxes);
+  //}
 }
 
 module.exports = new BoxController();
